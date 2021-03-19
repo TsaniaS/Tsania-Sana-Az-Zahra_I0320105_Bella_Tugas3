@@ -20,7 +20,10 @@ print(teman)
 teman.extend(['Gea', 'Dea'])
 
 #melakukan perulangan pada list
-print(teman * 4)
+x = 0
+for y in range (0,12):
+    print(teman[x])
+    x = x + 1
 
 #menampilkan panjang list
 print(len(teman))
